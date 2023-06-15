@@ -176,7 +176,7 @@ export class CanvasComponent implements AfterViewInit {
               .attr('height', 0)
               .attr('stroke', '#FF375E')
               .attr('stroke-width', 3)
-              .attr('fill', '#FF375E')
+              .attr('fill', 'none')
               .attr('class', 'selected')
               .attr('cursor', 'move')
               .on('mousedown', function () {
